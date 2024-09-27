@@ -1,0 +1,23 @@
+{
+  "name": "nrppzw-lab5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "serve -s",
+    "serve": "serve -s build --ssl-cert localhost.pem --ssl-key localhost-key.pem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarijanMatkovic/NRPPZW-lab5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarijanMatkovic/NRPPZW-lab5/issues"
+  },
+  "homepage": "https://github.com/MarijanMatkovic/NRPPZW-lab5#readme",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
